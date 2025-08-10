@@ -151,9 +151,11 @@
 # Example().run()
 
 from cin_out import clockInOut
+import time
 
 
 testFunc = clockInOut()
 clock_in_time = testFunc.clock_in()
+time.sleep(30)
 clock_out_time = testFunc.clock_out()
 testFunc.calculate_hours_worked(clock_in_time, clock_out_time)
