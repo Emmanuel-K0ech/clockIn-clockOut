@@ -150,7 +150,7 @@
 
 # Example().run()
 
-from cin-outd import clockInOut
+from cin_out import clockInOut
 
 
 testFunc = clockInOut()
